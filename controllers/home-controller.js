@@ -15,7 +15,7 @@ $scope.myInterval = 5000;
     }
   ];
   
- 
+ $scope.newvar = "Hello user";
 
 });
   
