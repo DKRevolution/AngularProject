@@ -51,9 +51,9 @@ footer {
   .pri-header li:last-child a {
     border-right: none; }
 
-.parent-container, .subpage-container {
+.parent-container, .subpage-container, .reservation-container {
   position: relative;
-  min-height: 600px;
+  min-height: 630px;
   clear: both; }
 
 .carousel-indicators {
@@ -70,14 +70,14 @@ footer {
   background: #fff;
   z-index: 1000;
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 6.5%; }
 .middle-container ul {
   padding-left: 0; }
 .middle-container ul li {
   display: inline-block;
   vertical-align: top;
-  width: 200px;
+  width: 193px;
   min-height: 300px; }
   .middle-container ul li a {
     padding: 5px; }
@@ -112,12 +112,12 @@ h5 {
   .middle-container ul li {
     margin-right: 20px; }
 
-.subpage-container {
-  min-height: 548px;
+.subpage-container, .reservation-container {
+  min-height: 140px;
   position: absolute;
-  top: 5%;
-  left: 9%;
-  width: 82%;
+  top: 30%;
+  left: 8%;
+  width: 84%;
   border: 1px solid #ccc;
   z-index: 500;
   background: #fff; }
@@ -128,5 +128,17 @@ h5 {
 .subpage-main-bottom-container {
   background: #46149A;
   min-height: 300px; }
+
+.carousel-indicators {
+  bottom: 45px; }
+
+.room-rates {
+  margin-top: 60px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px; }
+  .room-rates ul {
+    border-right: none; }
+    .room-rates ul li {
+      min-height: 260px; }
 
 /*# sourceMappingURL=global.css.map */

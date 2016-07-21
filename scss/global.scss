@@ -108,7 +108,7 @@ footer{
 }
 .parent-container{
 	position:relative;
-	min-height:600px;
+	min-height:630px;
 	clear:both;
 }
 .carousel-indicators{
@@ -128,7 +128,7 @@ footer{
 		background: #fff;
 		z-index:1000;
 		position:absolute;
-		top:45%;
+		top:40%;
 		left:6.5%;
 		
 	}
@@ -138,7 +138,7 @@ footer{
 	ul li{
 			display:inline-block; 
 			vertical-align:top;
-			width:200px;
+			width:193px;
 			min-height:300px;
 			
 			a {
@@ -174,11 +174,11 @@ footer{
  
  .subpage-container{
 	@extend .parent-container;
-	min-height:548px;
+	min-height:140px;
 	position:absolute;
-	top:5%;
-	left:9%;
-	width:82%;
+	top:30%;
+	left:8%;
+	width:84%;
 	border:$border-color;
 	z-index:500;
 	background:#fff;
@@ -190,3 +190,21 @@ footer{
 	background:$theme-color;
 	min-height:300px;
  }
+ .carousel-indicators {
+    bottom: 45px;
+}
+.room-rates{
+    margin-top:60px;
+	border:$border-color;
+	 margin-bottom:30px;
+	ul {
+	  border-right:none;
+	 li{
+	   min-height:260px;
+	   
+	 }
+	}
+}
+.reservation-container{
+ @extend .subpage-container
+}
